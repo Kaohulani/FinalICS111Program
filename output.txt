@@ -1,0 +1,4 @@
+Name: Kaohu, Age: 22
+Student - Name: Joe, Age: 20, Major: Business
+Employee - Name: Keawa, Age: 21, Department: Sales
+
