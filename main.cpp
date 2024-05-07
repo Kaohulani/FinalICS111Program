@@ -6,6 +6,10 @@
 #include "Employee.h"
 #include "Library.h"
 
+// Author: Kaohulani Palakiko 
+// Assignment: Final Project 
+// Date: 05/06/2024
+
 // Function to read data from the text file and display it
 void readAndDisplayFromFile(std::vector<std::string>& fileContents) {
     std::ifstream inputFile("output.txt");

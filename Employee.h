@@ -1,3 +1,8 @@
+// File: Employee.h
+// Author: Kaohulani Palakiko
+// Date: 05/06/2024
+// Description: This header file defines the Employee class, which is a derived class from the Person class.
+
 #ifndef EMPLOYEE_H
 #define EMPLOYEE_H
 
@@ -7,10 +12,11 @@ class Employee : public Person {
 private:
     std::string department;
 
-public:
+public: // Constructor 
     Employee(const std::string& name, int age, const std::string& department);
 
-    void displayInfo() const; // Remove 'override'
+// Member function to display employee information
+    void displayInfo() const; 
 };
 
 #endif // EMPLOYEE_H
